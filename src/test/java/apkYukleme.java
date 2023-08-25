@@ -25,7 +25,7 @@ public class apkYukleme {
         Eger ki kullanmis oldugum surum 6.0 dan buyukse UiAutomator2 kullanilir.
          */
         //Apk bilgisi ceptelefonundaki bilgilere ulasmak icin kullandik.Apk infodan kimlik bilgisini aliyoruz.
-        capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\serpi\\Java\\T_115\\Apps\\arabam.com_4.8.0_Apkpure.apk");
+        capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\serpi\\Java\\T_115\\Apps\\Kiwi.com - Book Cheap Flights_2023.14.0_Apkpure (1).apk");
 
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

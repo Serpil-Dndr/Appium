@@ -1,4 +1,4 @@
-package day2;
+package test.day2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
-
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class CalculatorTest {
